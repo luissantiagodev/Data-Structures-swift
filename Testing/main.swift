@@ -6,7 +6,9 @@
 //  Copyright © 2018 Luis Santiago. All rights reserved.
 //
 
-import Foundation
-
-print("Hello, World!")
+var list = LinkedList(head: nil)
+list.append(Node(value: 5))
+list.append(Node(value: 9))
+var item = list.getNode(atPosition: 1)
+print(item?.value)
 
